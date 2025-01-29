@@ -184,3 +184,7 @@ p {
   color: rgb(48, 0, 108);
 }
 /* info page 0 */
+#features {
+  background: rgb(77, 0,139 );
+  color: white;
+}
