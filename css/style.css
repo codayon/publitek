@@ -137,8 +137,50 @@ p {
   width: 100%;
 }
 /* banner section 0 */
+/* info page 1 */
 
-/*
-font-family: "Roboto", serif;
-font-family: "Raleway", serif; 
-*/
+#info {
+  display: flex;
+}
+.info-flex {
+  display: flex;
+}
+.headers {
+  width: 40%;
+  margin-top: 137px;
+  color: rgb(48, 0, 108);
+}
+.headers h4 {
+  font-size: 21px;
+  font-weight: 400;
+}
+.headers h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.headers h1 {
+  font-size: 50px;
+  line-height: 58px;
+}
+.paras {
+  width: 60%;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.paras-p p {
+  margin-bottom: 20px;
+  width: 540px;
+  line-height: 1.3;
+}
+.paras-foot h4 {
+  color: black;
+}
+.paras-foot h3 {
+  margin-top: 5px;
+  color: rgb(48, 0, 108);
+}
+.paras h3 {
+  color: rgb(48, 0, 108);
+}
+/* info page 0 */
