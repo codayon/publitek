@@ -1,0 +1,144 @@
+/* common styling 1 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", serif;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 0.8;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+/* common styling 0 */
+/* header section 1 */
+#header {
+  width: 100%;
+  position: fixed;
+  padding-top: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  height: 50px;
+}
+.logo img {
+  height: 100%;
+}
+.menu {
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu ul li {
+  padding: 0 25px;
+}
+.menu ul li a {
+  color: white;
+  font-family: "Raleway", serif;
+  font-weight: 600;
+}
+.hicon i {
+  color: white;
+  padding: 0px;
+  font-size: 20px;
+}
+/* header section 0 */
+/* banner section 1 */
+#banner {
+  /* background: url(../img/banner.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overly {
+  background: rgb(48, 3, 112);
+  margin: 0 auto;
+  padding-top: 250px;
+  padding-bottom: 0;
+  /* padding: 290px; */
+}
+.intro-flex {
+  display: flex;
+}
+.intro-text {
+  width: 50%;
+  color: white;
+  text-align: left;
+  margin-right: auto;
+}
+.intro-text h4 {
+  text-transform: uppercase;
+  font-family: "Raleway", serif;
+  letter-spacing: 3px;
+  line-height: normal;
+}
+.intro-text h1 {
+  font-size: 46px;
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 517px;
+}
+.intro-text p {
+  font-family: "Raleway", serif;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 21px;
+  margin-top: 10px;
+  width: 514px;
+}
+.intro-text h3 {
+  margin-top: 30px;
+  font-size: 14px;
+  padding: 20px;
+
+  display: inline-block;
+  color: white;
+  background: rgb(255, 163, 12);
+  font-family: "Raleway", serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.intro-image {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+}
+.intro-image img {
+  height: 100%;
+  width: 100%;
+}
+/* banner section 0 */
+
+/*
+font-family: "Roboto", serif;
+font-family: "Raleway", serif; 
+*/
